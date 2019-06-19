@@ -5,7 +5,7 @@ class IndexController extends Controller {
     public function index(){
         echo date('Y-m-d H:i:s');
 		echo "<br>";
-		sleep(120);
+		sleep(150);
 		echo date('Y-m-d H:i:s');
 		return true;
     }
